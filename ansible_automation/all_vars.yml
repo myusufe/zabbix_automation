@@ -1,0 +1,12 @@
+#Zabbix server information
+zabbix_url: "http://192.168.128.10/zabbix"
+zabbix_username: "automation"
+zabbix_password: "password"
+zabbix_url_api: "{{ zabbix_url}}/api_jsonrpc.php"
+
+group_1: "test-1"
+group_2: "test-2"
+
+host_name: "testing_only"
+host_description: "testing only for only"
+

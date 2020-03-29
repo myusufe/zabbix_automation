@@ -1,0 +1,26 @@
+---
+# tasks file for create_host
+
+- name: Create a new host or update an existing host's info
+  local_action:
+    module: zabbix_host
+    server_url: "{{ zabbix_url }}"
+    login_user: "{{ zabbix_username }}"
+    login_password: "{{ zabbix_password }}"
+    host_name: "{{ host_name }}"
+    visible_name: "{{ host_name }}"
+    description: "{{  host_description }}"
+    host_groups:
+      - "{{ group_1 }}"  
+      - "{{ group_2 }}"  
+    link_templates:
+      - "HAProxy"
+    status: enabled
+    state: present
+    interfaces:
+      - type: 1
+        main: 1
+        useip: 1
+        ip: 192.168.128.10
+        dns: ""
+        port: 10050

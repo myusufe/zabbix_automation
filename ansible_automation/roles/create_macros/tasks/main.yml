@@ -1,0 +1,14 @@
+---
+# tasks file for create_macros
+- name: Create new host macro or update an existing macro's value
+  local_action:
+    module: zabbix_hostmacro
+    server_url: "{{ zabbix_url }}"
+    login_user: "{{ zabbix_username }}"
+    login_password: "{{ zabbix_password }}"
+    host_name: "testing_only" 
+    macro_name: EXAMPLE.MACRO
+    macro_value: Example value
+    state: present
+
+

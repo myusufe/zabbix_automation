@@ -1,0 +1,10 @@
+[zabbix]
+zabbix01 ansible_host='192.168.128.10'
+
+#all var
+[all:vars]
+ansible_connection=ssh
+ansible_ssh_user=root
+ansible_ssh_pass=calvinandhobbs
+ansible_sudo_pass=calvinandhobbs
+

@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  gather_facts: false
+  vars_files:
+    - all_vars.yml
+  roles:
+    - create_group
+    - create_host
+    - create_macros
+    - create_mediatype
+    - create_proxy
