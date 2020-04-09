@@ -15,6 +15,7 @@ Requirements
 
 Tree
 --------------
+```
 .
 |-- README.md
 |-- ansible_automation
@@ -104,7 +105,7 @@ Tree
     |-- create_user.py
     |-- create_usergroups.py
     `-- sample.py
-
+```
 
 Dependencies
 ------------
