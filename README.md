@@ -11,7 +11,11 @@ Requirements
 
 - Ubuntu 16.04 and CentOS 7 tested
 - VMWare for Template (You can use for AWS/Azur/Alibaba Cloud)
-- python Zabbix API
+- Python (³ 2.6)
+- Ansible
+- PyVmomi - python Zabbix API
+- ovftool
+
 
 Tree
 --------------
