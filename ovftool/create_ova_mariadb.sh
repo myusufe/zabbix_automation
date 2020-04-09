@@ -11,7 +11,7 @@ vcenter_username='admin2%40akaicloud.com'
 vcenter_password='password123!'
 vcenter_datacenter='Datacenter01'
 template_folder_name='Template'
-template_name='ubuntu1604_template_16GB'
+template_name='ubuntu1604_template_16GB_100GB'
 ova_path='/data/ova/'
 
 ovftool \

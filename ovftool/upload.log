@@ -1,0 +1,374 @@
+2020-04-09T00:35:51.576-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] [SSL_DB] Using /root/.ovftool.ssldb as SSL DB
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 2 (SIGINT)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 4 (SIGILL)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 6 (SIGABRT)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 8 (SIGFPE)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 15 (SIGTERM)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 1 (SIGHUP)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 3 (SIGQUIT)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 5 (SIGTRAP)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 9 (SIGKILL)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Subscribing to signal: 13 (SIGPIPE)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing progress
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] OvfTool Version: VMware ovftool 4.3.0 (build-7948156)
+2020-04-09T00:35:54.249-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Using home directory: ./.ovftool
+2020-04-09T00:35:54.265-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Curl Version: 7.58.0
+2020-04-09T00:35:54.265-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Done initializing libs
+2020-04-09T00:35:54.265-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Determining source
+2020-04-09T00:35:54.265-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Determining target
+2020-04-09T00:35:54.265-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Getting source
+2020-04-09T00:35:54.265-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Getting vi source
+2020-04-09T00:35:54.265-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:54.266-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Connecting to vi host vcenter.akaicloud.com
+2020-04-09T00:35:54.266-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Skip SSL verification
+2020-04-09T00:35:54.285-07:00 verbose OVFTool[13753] [Originator@6876 sub=HttpConnectionPool-000000] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2020-04-09T00:35:54.285-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Found local version 6.7 by vmodl name vim.version.version12
+2020-04-09T00:35:54.419-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Local and Remote Version are the same. Talking with version vim.version.version12
+2020-04-09T00:35:54.419-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Using VIM API version: 6.7
+2020-04-09T00:35:54.832-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Determine if server is a standalone host or vpxd
+2020-04-09T00:35:54.832-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] VI API type: VirtualCenter
+2020-04-09T00:35:54.832-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Login to server based on username and password
+2020-04-09T00:35:54.832-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Setting VI connection message locale (via login) to: 
+2020-04-09T00:35:54.833-07:00 verbose OVFTool[13753] [Originator@6876 sub=HttpConnectionPool-000001] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2020-04-09T00:35:54.871-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Setup nfcService, used to get a ticket for uploading/downloading a disk.
+2020-04-09T00:35:54.954-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Get host or vc sslthumpprint.
+2020-04-09T00:35:54.955-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Keeping VI session alive
+2020-04-09T00:35:55.007-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Connecting to vi host vcenter.akaicloud.com
+2020-04-09T00:35:55.007-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Skip connection, vi host was connected
+2020-04-09T00:35:55.007-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Opening source
+2020-04-09T00:35:55.067-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsing version 6.7...
+2020-04-09T00:35:55.067-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2020-04-09T00:35:55.067-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsing version 4.1...
+2020-04-09T00:35:55.067-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2020-04-09T00:35:56.199-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Parsing version 6.7...
+2020-04-09T00:35:56.199-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2020-04-09T00:35:56.199-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Parsing version 4.1...
+2020-04-09T00:35:56.199-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2020-04-09T00:35:56.242-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] HttpNfcLease:
+--> (vim.HttpNfcLease.Info) {
+-->    lease = 'vim.HttpNfcLease:session[52b52855-1a92-776f-d7fc-e576077e394c]52ebf3e6-4992-2a4d-a200-abea7543a6c3', 
+-->    entity = 'vim.VirtualMachine:vm-1311', 
+-->    deviceUrl = (vim.HttpNfcLease.DeviceUrl) [
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/vm-1311/VirtualAHCIController0:0", 
+-->          importKey = "", 
+-->          url = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-0.iso", 
+-->          sslThumbprint = "D1:B7:0A:53:52:2C:87:1D:04:80:72:85:60:8C:0F:4F:AB:E1:C1:B3", 
+-->          disk = false, 
+-->          targetId = <unset>, 
+-->          datastoreKey = <unset>, 
+-->          fileSize = 912261120
+-->       }, 
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/vm-1311/VirtualLsiLogicController0:0", 
+-->          importKey = "", 
+-->          url = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-1.vmdk", 
+-->          sslThumbprint = "D1:B7:0A:53:52:2C:87:1D:04:80:72:85:60:8C:0F:4F:AB:E1:C1:B3", 
+-->          disk = true, 
+-->          targetId = "disk-1.vmdk", 
+-->          datastoreKey = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/", 
+-->          fileSize = <unset>
+-->       }, 
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/vm-1311/VirtualLsiLogicController0:1", 
+-->          importKey = "", 
+-->          url = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-2.vmdk", 
+-->          sslThumbprint = "D1:B7:0A:53:52:2C:87:1D:04:80:72:85:60:8C:0F:4F:AB:E1:C1:B3", 
+-->          disk = true, 
+-->          targetId = "disk-2.vmdk", 
+-->          datastoreKey = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/", 
+-->          fileSize = <unset>
+-->       }, 
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/vm-1311/nvram", 
+-->          importKey = "", 
+-->          url = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-3.nvram", 
+-->          sslThumbprint = "D1:B7:0A:53:52:2C:87:1D:04:80:72:85:60:8C:0F:4F:AB:E1:C1:B3", 
+-->          disk = false, 
+-->          targetId = <unset>, 
+-->          datastoreKey = <unset>, 
+-->          fileSize = 8684
+-->       }
+-->    ], 
+-->    totalDiskCapacityInKB = 121634816, 
+-->    leaseTimeout = 300, 
+-->    hostMap = (vim.HttpNfcLease.DatastoreLeaseInfo) [
+-->       (vim.HttpNfcLease.DatastoreLeaseInfo) {
+-->          datastoreKey = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/", 
+-->          hosts = (vim.HttpNfcLease.HostInfo) [
+-->             (vim.HttpNfcLease.HostInfo) {
+-->                url = "https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/", 
+-->                sslThumbprint = "D1:B7:0A:53:52:2C:87:1D:04:80:72:85:60:8C:0F:4F:AB:E1:C1:B3"
+-->             }
+-->          ]
+-->       }
+-->    ]
+--> }
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] ApplyOvfTransformations with ovfRewriter started
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] ApplyExtraConfig started
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Setting extra config...
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Filtering extra config
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] The command line option --allowExtraConfig is specified: true
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] The command line option --exportFlags=extraconfig is specified: false
+2020-04-09T00:35:56.318-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Whitelist allowed extra config: key=nvram
+2020-04-09T00:35:56.319-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsing URL...
+2020-04-09T00:35:56.319-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:56.319-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:56.319-07:00 info OVFTool[13753] [Originator@6876 sub=Default] ReaderFactory web request: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-0.iso, noBody=true
+2020-04-09T00:35:56.319-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing new curl session
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsing URL...
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Curl session torn down
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Validating files
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Getting target
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Ovf converter is executing
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Starting Ovf convertion...
+2020-04-09T00:35:56.362-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] OVF source Descriptor: <?xml version="1.0" encoding="UTF-8"?>
+--> <!--Generated by VMware VirtualCenter Server, User: AKAICLOUD.COM\admin2, UTC time: 2020-04-09T07:35:53.270357Z-->
+--> <Envelope vmw:buildId="build-14368073" xmlns="http://schemas.dmtf.org/ovf/envelope/1" xmlns:cim="http://schemas.dmtf.org/wbem/wscim/1/common" xmlns:ovf="http://schemas.dmtf.org/ovf/envelope/1" xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData" xmlns:vmw="http://www.vmware.com/schema/ovf" xmlns:vssd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_VirtualSystemSettingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+-->   <References>
+-->     <File ovf:href="/vm-1311/VirtualLsiLogicController0:0" ovf:id="file1"/>
+-->     <File ovf:href="/vm-1311/VirtualLsiLogicController0:1" ovf:id="file2"/>
+-->     <File ovf:href="/vm-1311/VirtualAHCIController0:0" ovf:id="file3"/>
+-->     <File ovf:href="/vm-1311/nvram" ovf:id="file4"/>
+-->   </References>
+-->   <DiskSection>
+-->     <Info>Virtual disk information</Info>
+-->     <Disk ovf:capacity="16" ovf:capacityAllocationUnits="byte * 2^30" ovf:diskId="vmdisk1" ovf:fileRef="file1" ovf:format="http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized"/>
+-->     <Disk ovf:capacity="100" ovf:capacityAllocationUnits="byte * 2^30" ovf:diskId="vmdisk2" ovf:fileRef="file2" ovf:format="http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized"/>
+-->   </DiskSection>
+-->   <NetworkSection>
+-->     <Info>The list of logical networks</Info>
+-->     <Network ovf:name="management">
+-->       <Description>The management network</Description>
+-->     </Network>
+-->   </NetworkSection>
+-->   <VirtualSystem ovf:id="ubuntu1604_template_16GB_100GB">
+-->     <Info>A virtual machine</Info>
+-->     <Name>ubuntu1604_template_16GB_100GB</Name>
+-->     <OperatingSystemSection ovf:id="94" vmw:osType="ubuntu64Guest">
+-->       <Info>The kind of installed guest operating system</Info>
+-->       <Description>Ubuntu Linux (64-bit)</Description>
+-->     </OperatingSystemSection>
+-->     <VirtualHardwareSection>
+-->       <Info>Virtual hardware requirements</Info>
+-->       <System>
+-->         <vssd:ElementName>Virtual Hardware Family</vssd:ElementName>
+-->         <vssd:InstanceID>0</vssd:InstanceID>
+-->         <vssd:VirtualSystemIdentifier>ubuntu1604_template_16GB_100GB</vssd:VirtualSystemIdentifier>
+-->         <vssd:VirtualSystemType>vmx-14</vssd:VirtualSystemType>
+-->       </System>
+-->       <Item>
+-->         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
+-->         <rasd:Description>Number of Virtual CPUs</rasd:Description>
+-->         <rasd:ElementName>1 virtual CPU(s)</rasd:ElementName>
+-->         <rasd:InstanceID>1</rasd:InstanceID>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>1</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName>1024MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID>2</rasd:InstanceID>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>1024</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address>0</rasd:Address>
+-->         <rasd:Description>SATA Controller</rasd:Description>
+-->         <rasd:ElementName>SATA controller 0</rasd:ElementName>
+-->         <rasd:InstanceID>3</rasd:InstanceID>
+-->         <rasd:ResourceSubType>vmware.sata.ahci</rasd:ResourceSubType>
+-->         <rasd:ResourceType>20</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="slotInfo.pciSlotNumber" vmw:value="33"/>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address>0</rasd:Address>
+-->         <rasd:Description>SCSI Controller</rasd:Description>
+-->         <rasd:ElementName>SCSI controller 0</rasd:ElementName>
+-->         <rasd:InstanceID>4</rasd:InstanceID>
+-->         <rasd:ResourceSubType>lsilogic</rasd:ResourceSubType>
+-->         <rasd:ResourceType>6</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="slotInfo.pciSlotNumber" vmw:value="16"/>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address>1</rasd:Address>
+-->         <rasd:Description>IDE Controller</rasd:Description>
+-->         <rasd:ElementName>IDE 1</rasd:ElementName>
+-->         <rasd:InstanceID>5</rasd:InstanceID>
+-->         <rasd:ResourceType>5</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address>0</rasd:Address>
+-->         <rasd:Description>IDE Controller</rasd:Description>
+-->         <rasd:ElementName>IDE 0</rasd:ElementName>
+-->         <rasd:InstanceID>6</rasd:InstanceID>
+-->         <rasd:ResourceType>5</rasd:ResourceType>
+-->       </Item>
+-->       <Item ovf:required="false">
+-->         <rasd:AutomaticAllocation>false</rasd:AutomaticAllocation>
+-->         <rasd:ElementName>Video card</rasd:ElementName>
+-->         <rasd:InstanceID>7</rasd:InstanceID>
+-->         <rasd:ResourceType>24</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="useAutoDetect" vmw:value="false"/>
+-->         <vmw:Config ovf:required="false" vmw:key="videoRamSizeInKB" vmw:value="4096"/>
+-->         <vmw:Config ovf:required="false" vmw:key="enable3DSupport" vmw:value="false"/>
+-->         <vmw:Config ovf:required="false" vmw:key="use3dRenderer" vmw:value="automatic"/>
+-->         <vmw:Config ovf:required="false" vmw:key="graphicsMemorySizeInKB" vmw:value="262144"/>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>0</rasd:AddressOnParent>
+-->         <rasd:ElementName>Hard disk 1</rasd:ElementName>
+-->         <rasd:HostResource>ovf:/disk/vmdisk1</rasd:HostResource>
+-->         <rasd:InstanceID>8</rasd:InstanceID>
+-->         <rasd:Parent>4</rasd:Parent>
+-->         <rasd:ResourceType>17</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="backing.writeThrough" vmw:value="false"/>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>1</rasd:AddressOnParent>
+-->         <rasd:ElementName>Hard disk 2</rasd:ElementName>
+-->         <rasd:HostResource>ovf:/disk/vmdisk2</rasd:HostResource>
+-->         <rasd:InstanceID>9</rasd:InstanceID>
+-->         <rasd:Parent>4</rasd:Parent>
+-->         <rasd:ResourceType>17</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="backing.writeThrough" vmw:value="false"/>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>7</rasd:AddressOnParent>
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:Connection>management</rasd:Connection>
+-->         <rasd:Description>VmxNet3 ethernet adapter on &quot;management&quot;</rasd:Description>
+-->         <rasd:ElementName>Network adapter 1</rasd:ElementName>
+-->         <rasd:InstanceID>10</rasd:InstanceID>
+-->         <rasd:ResourceSubType>VmxNet3</rasd:ResourceSubType>
+-->         <rasd:ResourceType>10</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="slotInfo.pciSlotNumber" vmw:value="160"/>
+-->         <vmw:Config ovf:required="false" vmw:key="wakeOnLanEnabled" vmw:value="true"/>
+-->         <vmw:Config ovf:required="false" vmw:key="connectable.allowGuestControl" vmw:value="true"/>
+-->       </Item>
+-->       <Item ovf:required="false">
+-->         <rasd:AutomaticAllocation>false</rasd:AutomaticAllocation>
+-->         <rasd:ElementName>VMCI device</rasd:ElementName>
+-->         <rasd:InstanceID>11</rasd:InstanceID>
+-->         <rasd:ResourceSubType>vmware.vmci</rasd:ResourceSubType>
+-->         <rasd:ResourceType>1</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="slotInfo.pciSlotNumber" vmw:value="32"/>
+-->         <vmw:Config ovf:required="false" vmw:key="allowUnrestrictedCommunication" vmw:value="false"/>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>0</rasd:AddressOnParent>
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:ElementName>CD/DVD drive 1</rasd:ElementName>
+-->         <rasd:HostResource>ovf:/file/file3</rasd:HostResource>
+-->         <rasd:InstanceID>12</rasd:InstanceID>
+-->         <rasd:Parent>3</rasd:Parent>
+-->         <rasd:ResourceSubType>vmware.cdrom.iso</rasd:ResourceSubType>
+-->         <rasd:ResourceType>15</rasd:ResourceType>
+-->         <vmw:Config ovf:required="false" vmw:key="connectable.allowGuestControl" vmw:value="true"/>
+-->       </Item>
+-->       <vmw:Config ovf:required="false" vmw:key="cpuHotAddEnabled" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="cpuHotRemoveEnabled" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="memoryHotAddEnabled" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="firmware" vmw:value="bios"/>
+-->       <vmw:Config ovf:required="false" vmw:key="cpuAllocation.shares.shares" vmw:value="1000"/>
+-->       <vmw:Config ovf:required="false" vmw:key="cpuAllocation.shares.level" vmw:value="normal"/>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.syncTimeWithHost" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.afterPowerOn" vmw:value="true"/>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.afterResume" vmw:value="true"/>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.beforeGuestShutdown" vmw:value="true"/>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.beforeGuestStandby" vmw:value="true"/>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.toolsUpgradePolicy" vmw:value="manual"/>
+-->       <vmw:Config ovf:required="false" vmw:key="powerOpInfo.powerOffType" vmw:value="soft"/>
+-->       <vmw:Config ovf:required="false" vmw:key="powerOpInfo.resetType" vmw:value="soft"/>
+-->       <vmw:Config ovf:required="false" vmw:key="powerOpInfo.suspendType" vmw:value="hard"/>
+-->       <vmw:Config ovf:required="false" vmw:key="nestedHVEnabled" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="virtualICH7MPresent" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="virtualSMCPresent" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="flags.vvtdEnabled" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="flags.vbsEnabled" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="bootOptions.efiSecureBootEnabled" vmw:value="false"/>
+-->       <vmw:Config ovf:required="false" vmw:key="powerOpInfo.standbyAction" vmw:value="checkpoint"/>
+-->       <vmw:ExtraConfig ovf:required="false" vmw:key="nvram" vmw:value="ovf:/file/file4"/>
+-->     </VirtualHardwareSection>
+-->   </VirtualSystem>
+--> </Envelope>
+2020-04-09T00:35:56.363-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2020-04-09T00:35:56.365-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB.ovf (Written bytes: 10369)
+2020-04-09T00:35:56.366-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2020-04-09T00:35:56.366-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB.mf (Written bytes: 573)
+2020-04-09T00:35:56.371-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Using capacity as progress measure
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] ResourceLoop<4>: uploadFiles:upload mapping:[/vm-1311/VirtualLsiLogicController0:0, ubuntu1604_template_16GB_100GB-disk1.vmdk, 0], progress:0
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] ResourceLoop<4>: uploadFiles:upload mapping:[/vm-1311/VirtualLsiLogicController0:1, ubuntu1604_template_16GB_100GB-disk2.vmdk, 0], progress:0
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] ResourceLoop<4>: uploadFiles:upload mapping:[/vm-1311/VirtualAHCIController0:0, ubuntu1604_template_16GB_100GB-file1.iso, 0], progress:0
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] ResourceLoop<4>: uploadFiles:upload mapping:[/vm-1311/nvram, ubuntu1604_template_16GB_100GB-file2.nvram, 0], progress:0
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:35:56.372-07:00 info OVFTool[13759] [Originator@6876 sub=Default] ReaderFactory web request: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-1.vmdk, noBody=false
+2020-04-09T00:35:56.372-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Initializing new curl session
+2020-04-09T00:35:56.822-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Upload disk do convert
+2020-04-09T00:35:56.834-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Opening disk target ubuntu1604_template_16GB_100GB-disk1.vmdk
+2020-04-09T00:45:54.963-07:00 verbose OVFTool[13760] [Originator@6876 sub=Default] Keeping VI session alive
+2020-04-09T00:49:22.736-07:00 verbose OVFTool[13767] [Originator@6876 sub=Default] Curl session torn down
+2020-04-09T00:49:22.739-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Closing disk source and targets
+2020-04-09T00:49:22.741-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB-disk1.vmdk (Written bytes: 806857728)
+2020-04-09T00:49:22.741-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Upload disk do convert done
+2020-04-09T00:49:22.741-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:49:22.741-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:49:22.741-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:49:22.741-07:00 info OVFTool[13766] [Originator@6876 sub=Default] ReaderFactory web request: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-2.vmdk, noBody=false
+2020-04-09T00:49:22.741-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Initializing new curl session
+2020-04-09T00:49:22.840-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Upload disk do convert
+2020-04-09T00:49:22.840-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Opening disk target ubuntu1604_template_16GB_100GB-disk2.vmdk
+2020-04-09T00:49:37.170-07:00 verbose OVFTool[13771] [Originator@6876 sub=Default] Curl session torn down
+2020-04-09T00:49:37.172-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Closing disk source and targets
+2020-04-09T00:49:37.172-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB-disk2.vmdk (Written bytes: 465920)
+2020-04-09T00:49:37.172-07:00 verbose OVFTool[13766] [Originator@6876 sub=Default] Upload disk do convert done
+2020-04-09T00:49:37.172-07:00 verbose OVFTool[13765] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:49:37.173-07:00 verbose OVFTool[13765] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:49:37.173-07:00 verbose OVFTool[13765] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:49:37.173-07:00 info OVFTool[13765] [Originator@6876 sub=Default] ReaderFactory web request: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-0.iso, noBody=false
+2020-04-09T00:49:37.173-07:00 verbose OVFTool[13765] [Originator@6876 sub=Default] Initializing new curl session
+2020-04-09T00:49:37.226-07:00 verbose OVFTool[13765] [Originator@6876 sub=Default] Upload image
+2020-04-09T00:51:00.659-07:00 verbose OVFTool[13767] [Originator@6876 sub=HttpConnectionPool-000000] [RemoveConnection] Connection removed; cnx: <SSL(<io_obj p:0x00007f24a40028a0, h:-1, <TCP '192.168.128.152 : 35246'>, <TCP '192.168.125.100 : 443'> FD Closed>)>; pooled: 1
+2020-04-09T00:55:55.397-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Keeping VI session alive
+2020-04-09T00:56:18.403-07:00 verbose OVFTool[13759] [Originator@6876 sub=Default] Curl session torn down
+2020-04-09T00:56:18.413-07:00 verbose OVFTool[13765] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB-file1.iso (Written bytes: 912261120)
+2020-04-09T00:56:18.413-07:00 verbose OVFTool[13765] [Originator@6876 sub=Default] Upload image done
+2020-04-09T00:56:18.420-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:56:18.420-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:56:18.420-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Constructing URL...
+2020-04-09T00:56:18.420-07:00 info OVFTool[13773] [Originator@6876 sub=Default] ReaderFactory web request: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-3.nvram, noBody=false
+2020-04-09T00:56:18.420-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Initializing new curl session
+2020-04-09T00:56:18.570-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Upload image
+2020-04-09T00:56:18.571-07:00 verbose OVFTool[13770] [Originator@6876 sub=Default] Curl session torn down
+2020-04-09T00:56:18.573-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB-file2.nvram (Written bytes: 8684)
+2020-04-09T00:56:18.573-07:00 verbose OVFTool[13773] [Originator@6876 sub=Default] Upload image done
+2020-04-09T00:56:18.592-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Ovf convertion finished
+2020-04-09T00:56:18.614-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsing version 6.7...
+2020-04-09T00:56:18.614-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2020-04-09T00:56:18.614-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsing version 4.1...
+2020-04-09T00:56:18.614-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2020-04-09T00:56:18.764-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] locator=https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-3.nvram, sha1=df2b439eb98553423d12bef3491f368ebd2415df, checksum=df2b439eb98553423d12bef3491f368ebd2415df, checksumType=sha1
+2020-04-09T00:56:18.780-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Locator: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-3.nvram, expected digest: df2b439eb98553423d12bef3491f368ebd2415df
+2020-04-09T00:56:18.780-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Got digest from reader factory: locator = https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-3.nvram, digest = df2b439eb98553423d12bef3491f368ebd2415df
+2020-04-09T00:56:18.780-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] locator=https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-1.vmdk, sha1=ce9b31525ddddf0288bd4c64b19484ddef2cefc8, checksum=ce9b31525ddddf0288bd4c64b19484ddef2cefc8, checksumType=sha1
+2020-04-09T00:56:18.780-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Locator: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-1.vmdk, expected digest: ce9b31525ddddf0288bd4c64b19484ddef2cefc8
+2020-04-09T00:56:18.784-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Got digest from reader factory: locator = https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-1.vmdk, digest = ce9b31525ddddf0288bd4c64b19484ddef2cefc8
+2020-04-09T00:56:18.784-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] locator=https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-2.vmdk, sha1=58200547511f1bec62d8c918fd306a57d7256a2e, checksum=58200547511f1bec62d8c918fd306a57d7256a2e, checksumType=sha1
+2020-04-09T00:56:18.784-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Locator: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-2.vmdk, expected digest: 58200547511f1bec62d8c918fd306a57d7256a2e
+2020-04-09T00:56:18.784-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Got digest from reader factory: locator = https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-2.vmdk, digest = 58200547511f1bec62d8c918fd306a57d7256a2e
+2020-04-09T00:56:18.784-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] locator=https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-0.iso, sha1=ee32c555567dd5407c58a1cfc7e668ab37a99d99, checksum=ee32c555567dd5407c58a1cfc7e668ab37a99d99, checksumType=sha1
+2020-04-09T00:56:18.784-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Locator: https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-0.iso, expected digest: ee32c555567dd5407c58a1cfc7e668ab37a99d99
+2020-04-09T00:56:18.784-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Got digest from reader factory: locator = https://server02.akaicloud.com/nfc/52b80ed0-1550-2770-11b0-4555e1492b5b/disk-0.iso, digest = ee32c555567dd5407c58a1cfc7e668ab37a99d99
+2020-04-09T00:56:18.832-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2020-04-09T00:56:19.022-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB.ovf (Written bytes: 10369)
+2020-04-09T00:56:19.022-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2020-04-09T00:56:19.026-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Closing writer. Locator: ubuntu1604_template_16GB_100GB.mf (Written bytes: 573)
+2020-04-09T00:56:19.031-07:00 verbose OVFTool[13753] [Originator@6876 sub=Default] Destruction of ViSource
